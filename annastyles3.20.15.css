@@ -1,0 +1,402 @@
+html  {
+background: url("pencils.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;     
+      }
+
+body  {
+   width: 100%;
+   margin: auto;
+   
+      }  
+
+a:link {
+    text-decoration: none;
+       }
+
+
+.main {
+       background-color: #D8D8D8;
+       padding: 0 1em;
+       width:  370px;
+       text-align: center;
+       margin:6em auto;
+       font-family:'Open Sans';
+       border: 2px transparent;
+       border-radius: 25px;
+      }
+
+
+/*Navigational items and top bar */
+
+
+nav {
+    list-style-type: none;
+           }
+li {
+    display: inline;
+    font-family:"Open Sans", sans-serif;
+   }
+
+a:link, a:visited {
+       padding: 15px; 
+       color:white;
+       font-family:"Open Sans", sans-serif;
+       }
+
+a:hover {
+       color:grey;
+       font-family:"Open Sans", sans-serif;
+        }          
+
+.minilogo  {
+     font-family:'Raleway', sans-serif;
+     font-weight:300;
+     font-size: 180%;
+     color: #666666;
+      }
+.ministrategy  {
+    color:#0066CC;
+                 }
+a.minilogo:hover {
+      color: grey;
+      }
+span.ministrategy:hover {
+      color: grey;
+      }
+
+/*Main Content*/
+
+main  {
+       background: #D8D8D8;
+       padding: 1em 1em;
+       width:  350px;
+       text-align: center;
+       margin:6em auto;
+       font-family:'Open Sans';
+       border: 2px transparent;
+       border-radius: 25px;
+      }
+
+
+
+.logo  {
+     font-family:'Raleway', sans-serif;
+     font-weight:300;
+     font-size: 280%;
+     text-align: center;
+     color: #666666;
+     margin-top: .75em;
+      }
+
+.strategy  {
+    color:#0066CC;
+                 }
+
+.subtitle {
+     font-family:'Raleway', sans-serif;
+     text-align: center;
+     margin-top: -2.2em;
+     font-size: 150%;
+     color: #666666;
+          }
+.intro {
+     background-color: #D8D8D8;
+     padding: .5em 2em;
+     margin: 2.5em auto;
+     font-family:'Open Sans', sans-serif;
+     max-width: 700px;
+     width: 85%;
+     border: 2px transparent;
+     border-radius: 25px;
+       }
+h1  {
+     font-family:'Raleway', sans-serif;
+     text-align: center;
+      }
+
+
+.pastwork {
+    background-color: white;
+    padding: .5em;
+    border: 2px transparent;
+    border-radius: 25px;
+    text-align: center;
+      }
+.logos {
+    display: inline;
+       }
+.penciltext {
+    font-family:'Open Sans';
+           }
+.cta   {
+     text-align: center;
+     top: 1em;
+     padding: 1em 0;
+     font-family:'Open Sans';
+     font-size: 110%;
+           }
+
+.skills {
+     text-align: center;
+     font-family:'Open Sans';
+     padding: 2em;
+}
+.connect {
+     color: grey;
+     }
+span.connect:hover {
+     color: white;
+     }
+
+#email {
+    text-align: center;
+       }
+
+#contact1  {
+     position: relative;
+       }
+
+#contact2 {
+     position: relative;
+     top: -1em;
+       }
+#contact3  {
+     position: relative;
+     top: -2em;
+       }
+
+.gallery {
+     width: 100%;
+     margin:5em auto;
+     text-align: center;
+     padding: 1em;
+         }
+
+.project {
+     width: 45%;
+     margin: .75em .75em;
+     position: relative;
+     display: inline-block;
+     padding: .5em;
+     max-width:350px;
+     max-height:550px;
+         }
+
+.comingsoon {
+     width: 45%;
+     margin: 2em .75em;
+     position: relative;
+     display: inline-block;
+     padding: .5em;
+     max-width:350px;
+     max-height:550px;
+     border: 2px transparent;
+   border-radius: 25px;
+         }
+
+h2  {
+     font-family:'Raleway', sans-serif;
+     font-size: 17px;
+     font-style:italic;
+     margin:-.75em 0 0 0;
+    }
+
+.project-pic{
+     margin: .25em auto;
+
+	  }
+
+
+#vrou-project {
+    background-color: #D8D8D8;
+    
+         }
+
+#tdk-project {
+    background-color: white;
+    
+         }
+#coming-project {
+    background-color: #D8D8D8;
+    
+         }
+
+#psu-project {
+    background-color: white; 
+         }
+
+/*Responsive stuff*/
+
+
+@media screen and (max-width: 800px) {	
+   
+
+     main{
+        margin: 0 auto;
+        width:  65%;
+	height: auto;
+         }
+     
+     #menu1 {
+        color:white;
+    
+         }  
+ 
+      h1{
+       font-size: 30px;
+       color: black;
+         }
+
+      h2{
+       font-size: 30px;
+       color: black;
+         }
+
+     
+    #vrou-project {
+     width: 100%;
+     
+         }
+     
+     #tdk-project {
+     width: 95%;
+     
+         }
+
+    #coming-project {
+     width: 95%;
+     
+         }
+
+    #psu-project {
+    width: 95%;
+    
+         }
+}
+
+@media (max-width: 450px){
+
+main{
+        margin: 1em auto;
+        max-width:  290px;
+	height: auto;
+         }
+
+.logo  {
+       margin-top: -5;
+       font-size: 160%;
+       }
+.subtitle  {
+      font-size: 100%;
+      margin-top: -1.8em;
+      margin-bottom: 2em;
+
+   }
+
+
+#logo {
+        
+     margin-left: auto;
+     margin-right: auto;
+         } 
+
+#menu1 {
+        position: relative;
+        display: inline-block;
+        color:white;
+        width: 100%;
+        height: 15px;
+        margin: 10px auto;
+        max-width: 250px;
+	text-align: center;
+        font-size: 115%;
+        background-color: #99CCCC;
+         }  
+#menu2 {
+        position: relative;
+        display: inline-block;
+        color:white;
+        width: 100%;
+        height: 15px;
+        margin: -10px auto;
+        max-width: 250px;
+	text-align: center;
+
+        font-size: 115%;
+
+        background-color: #99CCCC;
+         }  
+#menu3 {
+        position: relative;
+        display: inline-block;
+        color:white;
+        width: 100%;
+        height: 15px;
+        margin: 5px auto;
+        max-width: 250px;
+	text-align: center;
+        font-size: 115%;
+        background-color: #99CCCC;
+         }  
+
+#menu1:hover {
+       color:grey;
+       background-color: #669999;
+        }  
+
+#menu2:hover {
+       color:grey;
+       background-color: #669999;
+        }  
+
+#menu3:hover {
+       color:grey;
+       background-color: #669999;
+        }  
+
+.logospace {
+      margin: -1em 0;
+     }
+
+ #vrou-project {
+     width: 100%;
+         }
+     
+     #tdk-project {
+     width: 95%;
+     
+         }
+
+    #hidden-project {
+    width: 95%;
+    
+         }
+
+ #coming-project {
+     max-width: 280px;
+     
+         }
+
+}
+
+
+
+/*Footers*/
+
+
+footer {
+     text-align: center;
+     padding: 2em 0 0 0;
+        }   
+
+.notation {
+     text-align: center;
+     margin: 1em;
+     color: #FFFFFF;
+     font-family:"Open Sans", sans-serif;
+         }
+
+ 
